@@ -1,0 +1,34 @@
+.wrapper{
+	margin: 0 auto;
+	width: 1079px;
+	height: 720px;
+	font-family:Lato;
+	display: grid;
+  grid-template-columns: auto  366px   auto ; 
+  grid-gap: 10px;
+  grid-template-rows: auto 99px 425px 99px auto ;
+  background-image:url(img/koek.jpg);
+  background-color:black;
+}
+
+
+.container{
+	grid-column: 2 ;
+	grid-row: 3;
+	text-align:center;
+	border:solid;
+	border-color:black;
+	background-color:white;
+
+}
+.titel{
+	grid-column: 2 ;
+	grid-row: 3;
+	text-align:center;
+	border-bottom:solid;
+	border-color:black;
+	background-color:white;
+
+
+}
+
